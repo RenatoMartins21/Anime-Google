@@ -1,0 +1,17 @@
+{
+	"name" : "Anime Google", 
+    "short_name": "Google Anime",
+    "author": "Renato Martins",
+	"version" : "1.1", 
+	"description" : "Anime google page",
+	"chrome_url_overrides" : {
+    "newtab": "newtab.html" },
+    "background": {
+    "scripts": ["script.js"] }, 
+
+    "icons": { "16": "img/icon16.png",
+               "48": "img/icon48.png",
+               "128": "img/icon128.png" },
+    
+    "manifest_version": 2
+}
